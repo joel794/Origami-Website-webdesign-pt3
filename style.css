@@ -1,0 +1,112 @@
+              h2{
+                 color: #FFFFFF;
+                 text-align: center;
+             }
+
+             body{
+                 margin : 0px;
+                 background-color: #F2F2F2;
+                 
+             }
+
+.header{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+} 
+
+ a:link{
+    color:  #FFFFFF;
+} 
+
+a:visited{
+    color: white;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+
+
+
+
+
+h2
+{
+    margin-left: 43%;
+}
+
+.menu{
+    display : flex;
+    justify-content : space-between;
+    background-color : #000000;
+    padding : 15px;
+    font-size : 20px;
+    font-family : sans-serif;
+    font-weight : 400;
+    color : #FFFFFF;
+}
+
+.ft{
+  font-family:'Courier New'; 
+   text-align: center;
+  
+}
+
+.item{
+    position: relative;
+     /* border: solid; */
+}
+
+.item p{
+    position: absolute;
+    
+    
+    transform: translate(-1%, -90%);
+  
+}
+
+
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+
+.grid img
+{
+    border : 2px solid #000000;
+    border-radius : 50px;
+}
+.origami
+{
+    border-radius : 20px;
+    background-color : #FFFFFF;
+    padding : 30px;
+    margin : 25px;
+    width : 310px;
+    font-family : fantasy;
+}
+
+
+
+
+
+.bodyimg
+{
+    background-image: url('images/background.jpg');
+    border-radius : 0px;
+    color : #FFFFFF;
+    padding : 100px;
+    margin : 0px;
+    width : 1470px;
+
+    font-family : 'Times New Roman', Times, serif;
+}
